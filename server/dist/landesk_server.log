@@ -1,0 +1,126 @@
+2026-01-14 21:55:34 [INFO] Cleanup thread started
+2026-01-14 21:55:34 [INFO] ============================================================
+2026-01-14 21:55:34 [INFO] LanDesk Discovery Server
+2026-01-14 21:55:34 [INFO] ============================================================
+2026-01-14 21:55:34 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 21:55:34 [INFO] Configuration:
+2026-01-14 21:55:34 [INFO]   Device Timeout: 60s
+2026-01-14 21:55:34 [INFO]   Cleanup Interval: 30s
+2026-01-14 21:55:34 [INFO]   Max Devices: 10000
+2026-01-14 21:55:34 [INFO]   Statistics: Enabled
+2026-01-14 21:55:35 [INFO] Cleanup thread started
+2026-01-14 21:55:35 [INFO] ============================================================
+2026-01-14 21:55:35 [INFO] LanDesk Discovery Server
+2026-01-14 21:55:35 [INFO] ============================================================
+2026-01-14 21:55:35 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 21:55:35 [INFO] Configuration:
+2026-01-14 21:55:35 [INFO]   Device Timeout: 60s
+2026-01-14 21:55:35 [INFO]   Cleanup Interval: 30s
+2026-01-14 21:55:35 [INFO]   Max Devices: 10000
+2026-01-14 21:55:35 [INFO]   Statistics: Enabled
+2026-01-14 21:55:48 [INFO] Cleanup thread started
+2026-01-14 21:55:48 [INFO] ============================================================
+2026-01-14 21:55:48 [INFO] LanDesk Discovery Server
+2026-01-14 21:55:48 [INFO] ============================================================
+2026-01-14 21:55:48 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 21:55:48 [INFO] Configuration:
+2026-01-14 21:55:48 [INFO]   Device Timeout: 60s
+2026-01-14 21:55:48 [INFO]   Cleanup Interval: 30s
+2026-01-14 21:55:48 [INFO]   Max Devices: 10000
+2026-01-14 21:55:48 [INFO]   Statistics: Enabled
+2026-01-14 22:08:18 [INFO] Cleanup thread started
+2026-01-14 22:08:18 [INFO] ============================================================
+2026-01-14 22:08:18 [INFO] LanDesk Discovery Server
+2026-01-14 22:08:18 [INFO] ============================================================
+2026-01-14 22:08:18 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 22:08:18 [INFO] Configuration:
+2026-01-14 22:08:18 [INFO]   Device Timeout: 60s
+2026-01-14 22:08:18 [INFO]   Cleanup Interval: 30s
+2026-01-14 22:08:18 [INFO]   Max Devices: 10000
+2026-01-14 22:08:18 [INFO]   Statistics: Enabled
+2026-01-14 22:08:18 [INFO]   Production Server: Enabled
+2026-01-14 22:08:18 [INFO]   Threads: 8
+2026-01-14 22:08:18 [INFO]   Workers: 4 (Gunicorn only)
+2026-01-14 22:08:18 [INFO] Endpoints:
+2026-01-14 22:08:18 [INFO]   GET  /                    - Server status
+2026-01-14 22:08:18 [INFO]   GET  /api/health          - Health check
+2026-01-14 22:08:18 [INFO]   GET  /api/stats           - Server statistics
+2026-01-14 22:08:18 [INFO]   POST /api/register        - Register device
+2026-01-14 22:08:18 [INFO]   POST /api/heartbeat       - Update heartbeat
+2026-01-14 22:08:18 [INFO]   GET  /api/discover        - List all devices
+2026-01-14 22:08:18 [INFO]   GET  /api/find/<code>     - Find device by pairing code
+2026-01-14 22:08:18 [INFO]   GET  /api/devices         - List all devices (detailed)
+2026-01-14 22:08:18 [INFO]   POST /api/unregister      - Unregister device
+2026-01-14 22:08:18 [INFO] ============================================================
+2026-01-14 22:08:18 [INFO] Log file: landesk_server.log
+2026-01-14 22:08:18 [INFO] ============================================================
+2026-01-14 22:08:19 [INFO] Using Waitress production server
+2026-01-14 22:08:19 [INFO] Workers: 4
+2026-01-14 22:08:19 [INFO] Threads: 8
+2026-01-14 22:08:19 [INFO] Serving on http://0.0.0.0:8080
+2026-01-14 22:19:09 [INFO] Cleanup thread started
+2026-01-14 22:19:09 [INFO] ============================================================
+2026-01-14 22:19:09 [INFO] LanDesk Discovery Server
+2026-01-14 22:19:09 [INFO] ============================================================
+2026-01-14 22:19:09 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 22:19:09 [INFO] Server accessible at:
+2026-01-14 22:19:09 [INFO]   http://192.168.1.10:8080
+2026-01-14 22:19:09 [INFO]   http://localhost:8080 (local only)
+2026-01-14 22:19:09 [INFO] Configuration:
+2026-01-14 22:19:09 [INFO]   Device Timeout: 60s
+2026-01-14 22:19:09 [INFO]   Cleanup Interval: 30s
+2026-01-14 22:19:09 [INFO]   Max Devices: 10000
+2026-01-14 22:19:09 [INFO]   Statistics: Enabled
+2026-01-14 22:19:09 [INFO]   Production Server: Enabled
+2026-01-14 22:19:09 [INFO]   Threads: 8
+2026-01-14 22:19:09 [INFO]   Workers: 4 (Gunicorn only)
+2026-01-14 22:19:09 [INFO] Endpoints:
+2026-01-14 22:19:09 [INFO]   GET  /                    - Server status
+2026-01-14 22:19:09 [INFO]   GET  /api/health          - Health check
+2026-01-14 22:19:09 [INFO]   GET  /api/stats           - Server statistics
+2026-01-14 22:19:09 [INFO]   POST /api/register        - Register device
+2026-01-14 22:19:09 [INFO]   POST /api/heartbeat       - Update heartbeat
+2026-01-14 22:19:09 [INFO]   GET  /api/discover        - List all devices
+2026-01-14 22:19:09 [INFO]   GET  /api/find/<code>     - Find device by pairing code
+2026-01-14 22:19:09 [INFO]   GET  /api/devices         - List all devices (detailed)
+2026-01-14 22:19:09 [INFO]   POST /api/unregister      - Unregister device
+2026-01-14 22:19:09 [INFO] ============================================================
+2026-01-14 22:19:09 [INFO] Log file: landesk_server.log
+2026-01-14 22:19:09 [INFO] ============================================================
+2026-01-14 22:19:09 [INFO] Using Waitress production server
+2026-01-14 22:19:09 [INFO] Workers: 4
+2026-01-14 22:19:09 [INFO] Threads: 8
+2026-01-14 22:19:09 [INFO] Serving on http://0.0.0.0:8080
+2026-01-14 22:19:43 [INFO] Cleanup thread started
+2026-01-14 22:19:43 [INFO] ============================================================
+2026-01-14 22:19:43 [INFO] LanDesk Discovery Server
+2026-01-14 22:19:43 [INFO] ============================================================
+2026-01-14 22:19:43 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 22:19:43 [INFO] Server accessible at:
+2026-01-14 22:19:43 [INFO]   http://192.168.1.10:8080
+2026-01-14 22:19:43 [INFO]   http://localhost:8080 (local only)
+2026-01-14 22:19:43 [INFO] Configuration:
+2026-01-14 22:19:43 [INFO]   Device Timeout: 60s
+2026-01-14 22:19:43 [INFO]   Cleanup Interval: 30s
+2026-01-14 22:19:43 [INFO]   Max Devices: 10000
+2026-01-14 22:19:43 [INFO]   Statistics: Enabled
+2026-01-14 22:19:43 [INFO]   Production Server: Enabled
+2026-01-14 22:19:43 [INFO]   Threads: 8
+2026-01-14 22:19:43 [INFO]   Workers: 4 (Gunicorn only)
+2026-01-14 22:19:43 [INFO] Endpoints:
+2026-01-14 22:19:43 [INFO]   GET  /                    - Server status
+2026-01-14 22:19:43 [INFO]   GET  /api/health          - Health check
+2026-01-14 22:19:43 [INFO]   GET  /api/stats           - Server statistics
+2026-01-14 22:19:43 [INFO]   POST /api/register        - Register device
+2026-01-14 22:19:43 [INFO]   POST /api/heartbeat       - Update heartbeat
+2026-01-14 22:19:43 [INFO]   GET  /api/discover        - List all devices
+2026-01-14 22:19:43 [INFO]   GET  /api/find/<code>     - Find device by pairing code
+2026-01-14 22:19:43 [INFO]   GET  /api/devices         - List all devices (detailed)
+2026-01-14 22:19:43 [INFO]   POST /api/unregister      - Unregister device
+2026-01-14 22:19:43 [INFO] ============================================================
+2026-01-14 22:19:43 [INFO] Log file: landesk_server.log
+2026-01-14 22:19:43 [INFO] ============================================================
+2026-01-14 22:19:43 [INFO] Using Waitress production server
+2026-01-14 22:19:43 [INFO] Workers: 4
+2026-01-14 22:19:43 [INFO] Threads: 8
+2026-01-14 22:19:43 [INFO] Serving on http://0.0.0.0:8080

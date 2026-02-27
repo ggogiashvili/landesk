@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="landesk/landesk.vcxproj" Id="7add073e-5b6d-4f11-9320-82df415b5912" />
+</Solution>

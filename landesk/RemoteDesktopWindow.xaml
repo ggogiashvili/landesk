@@ -1,0 +1,51 @@
+<Window x:Class="LanDesk.RemoteDesktopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Remote Desktop - {Binding DeviceName}" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Toolbar -->
+        <Border Grid.Row="0" Background="#F0F0F0" BorderBrush="#CCCCCC" BorderThickness="0,0,0,1" Padding="10,5">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="DeviceNameText" Text="Remote Desktop" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,20,0"/>
+                <TextBlock x:Name="StatusText" Text="Connecting..." VerticalAlignment="Center" Foreground="Gray" Margin="0,0,20,0"/>
+                <TextBlock Text="Click on screen to control remotely" VerticalAlignment="Center" Foreground="DarkGreen" FontStyle="Italic" Margin="0,0,20,0"/>
+                <Button x:Name="StopButton" Content="Stop Sharing" Click="StopButton_Click" Padding="10,5" Margin="5,0"/>
+                <Button x:Name="FullScreenButton" Content="Full Screen" Click="FullScreenButton_Click" Padding="10,5" Margin="5,0"/>
+                <Separator Margin="10,0" VerticalAlignment="Center" Height="20"/>
+                <TextBlock Text="UAC:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <Button x:Name="UacYesButton" Content="UAC Yes" Click="UacYesButton_Click" Padding="8,5" Margin="2,0" ToolTip="Click Yes on remote UAC prompt (host must run as Service)"/>
+                <Button x:Name="UacNoButton" Content="UAC No" Click="UacNoButton_Click" Padding="8,5" Margin="2,0" ToolTip="Click No on remote UAC prompt"/>
+                <Button x:Name="UacCredentialsButton" Content="UAC Credentials..." Click="UacCredentialsButton_Click" Padding="8,5" Margin="2,0" ToolTip="Type username and password into UAC prompt"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Remote Screen Display -->
+        <Border Grid.Row="1" Background="#1a1a1a" BorderBrush="#CCCCCC" BorderThickness="1" MouseDown="Border_MouseDown" MouseMove="Border_MouseMove" MouseUp="Border_MouseUp" MouseWheel="Border_MouseWheel">
+            <Grid>
+                <Image x:Name="RemoteScreenImage" 
+                       Stretch="Uniform" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
+                       RenderOptions.BitmapScalingMode="HighQuality"
+                       MouseDown="RemoteScreenImage_MouseDown"
+                       MouseMove="RemoteScreenImage_MouseMove"
+                       MouseUp="RemoteScreenImage_MouseUp"
+                       MouseWheel="RemoteScreenImage_MouseWheel"/>
+                <!-- Shown until first frame received - so user knows we're waiting, not just black -->
+                <Border x:Name="WaitingVideoOverlay" Background="#2d2d2d" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="24,16" CornerRadius="8">
+                    <StackPanel>
+                        <TextBlock x:Name="WaitingVideoText" Text="Waiting for video from remote desktop…" Foreground="#b0b0b0" FontSize="16" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Make sure LanDesk is open on the remote PC." Foreground="#808080" FontSize="12" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

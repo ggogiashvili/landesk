@@ -1,0 +1,11 @@
+2026-01-14 21:40:46 [INFO] Cleanup thread started
+2026-01-14 21:40:46 [INFO] ============================================================
+2026-01-14 21:40:46 [INFO] LanDesk Discovery Server
+2026-01-14 21:40:46 [INFO] ============================================================
+2026-01-14 21:40:46 [INFO] Server starting on http://0.0.0.0:8080
+2026-01-14 21:40:46 [INFO] Configuration:
+2026-01-14 21:40:46 [INFO]   Device Timeout: 60s
+2026-01-14 21:40:46 [INFO]   Cleanup Interval: 30s
+2026-01-14 21:40:46 [INFO]   Max Devices: 10000
+2026-01-14 21:40:46 [INFO]   Statistics: Enabled
+2026-01-14 21:57:02 [INFO] Cleanup thread started

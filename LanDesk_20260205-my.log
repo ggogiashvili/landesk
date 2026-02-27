@@ -1,0 +1,83 @@
+[2026-02-05 12:18:06.658] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:06.706] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:06.810] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:06.813] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:06.913] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:06.994] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:07.268] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:07.429] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:07.561] [INFO] Found 1 device(s) via discovery server
+[2026-02-05 12:18:10.657] [INFO] === Connection Attempt Started ===
+[2026-02-05 12:18:10.657] [INFO] Target Device: WIN-4RP16O9RP67 (JEpcPZnhwxjXmsWG)
+[2026-02-05 12:18:10.658] [INFO] Target IP: 10.246.84.208
+[2026-02-05 12:18:10.659] [INFO] Target Pairing Code: 626-678-887
+[2026-02-05 12:18:10.660] [INFO] ConnectionManager: Attempting TCP connection to WIN-4RP16O9RP67 at 10.246.84.208:9213 (Manager ControlPort: 9213)
+[2026-02-05 12:18:10.667] [INFO] TCP connection established to WIN-4RP16O9RP67 at 10.246.84.208:9213
+[2026-02-05 12:18:10.669] [INFO] Connection result: SUCCESS
+[2026-02-05 12:18:10.692] [INFO] === RemoteDesktopWindow Connection Started ===
+[2026-02-05 12:18:10.693] [INFO] Target Device: WIN-4RP16O9RP67 (JEpcPZnhwxjXmsWG)
+[2026-02-05 12:18:10.693] [INFO] Target IP: 10.246.84.208
+[2026-02-05 12:18:10.694] [INFO] Connecting to screen streaming port (9213)...
+[2026-02-05 12:18:10.694] [INFO] ConnectionManager: Attempting TCP connection to WIN-4RP16O9RP67 at 10.246.84.208:9213 (Manager ControlPort: 9213)
+[2026-02-05 12:18:10.704] [INFO] TCP connection established to WIN-4RP16O9RP67 at 10.246.84.208:9213
+[2026-02-05 12:18:10.709] [INFO] Screen connection result: SUCCESS
+[2026-02-05 12:18:10.711] [INFO] Connecting to input control port (9226)...
+[2026-02-05 12:18:10.712] [INFO] ConnectionManager: Attempting TCP connection to WIN-4RP16O9RP67 at 10.246.84.208:9226 (Manager ControlPort: 9226)
+[2026-02-05 12:18:10.727] [INFO] TCP connection established to WIN-4RP16O9RP67 at 10.246.84.208:9226
+[2026-02-05 12:18:10.729] [INFO] Input connection result: SUCCESS
+[2026-02-05 12:18:10.730] [INFO] Screen connection established - starting screen receiver...
+[2026-02-05 12:18:10.731] [INFO] ScreenReceiverService: Starting to receive frames from [::ffff:10.246.84.208]:9213
+[2026-02-05 12:18:10.732] [INFO] Screen receiver started successfully
+[2026-02-05 12:18:10.733] [INFO] ScreenReceiverService: ReceiveFrames loop started - waiting for frames from [::ffff:10.246.84.208]:9213
+[2026-02-05 12:18:10.734] [DEBUG] ScreenReceiverService: Waiting to read frame size (4 bytes) from stream...
+[2026-02-05 12:18:10.735] [INFO] Input connection established - starting input sender...
+[2026-02-05 12:18:10.736] [INFO] InputSenderService: Connected to [::ffff:10.246.84.208]:9226
+[2026-02-05 12:18:10.737] [INFO] Input sender started successfully - remote control ready
+[2026-02-05 12:18:10.846] [INFO] Sent initial mouse move to activate remote input
+[2026-02-05 12:18:10.903] [INFO] Window activated and focused - ready for input
+[2026-02-05 12:18:16.852] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:16.964] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:17.080] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:17.183] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:25.733] [WARN] No video received after 15s - remind user to open LanDesk on remote PC
+[2026-02-05 12:18:26.942] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:37.031] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:37.149] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:37.266] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:37.382] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:47.120] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:47.233] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:47.336] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:18:57.200] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:18:57.316] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:07.364] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:07.467] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:10.714] [DEBUG] ScreenReceiverService: Read 0 bytes for frame size
+[2026-02-05 12:19:10.715] [INFO] ScreenReceiverService: ReceiveFrames loop exited - _isReceiving=True, stream=True, client connected=True
+[2026-02-05 12:19:17.516] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:27.673] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:27.784] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:37.815] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:37.904] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:47.910] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:48.007] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:48.117] [DEBUG] Discovery: Socket error during receive: ConnectionReset - An existing connection was forcibly closed by the remote host.
+[2026-02-05 12:19:58.021] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:19:58.132] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:58.242] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:58.353] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:19:58.462] [DEBUG] Discovery: Socket error during receive: ConnectionReset - An existing connection was forcibly closed by the remote host.
+[2026-02-05 12:20:08.143] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:08.244] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:18.270] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:18.374] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:28.388] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:28.485] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:38.523] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:38.619] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:38.729] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:48.637] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:58.772] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
+[2026-02-05 12:20:58.871] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:20:58.981] [DEBUG] Discovery: Socket error during receive: NetworkReset - The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress.
+[2026-02-05 12:21:08.851] [DEBUG] Discovery: Sent broadcast to 49 addresses/subnets
